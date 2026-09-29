@@ -10,7 +10,7 @@ configuration:
     provider: plausible
 
   locale: en-US
-  baseUrl: vivil10n.github.io/vivian-garden
+  baseUrl: vivil10n.github.io/vivians-digital-garden
 
   ignorePatterns:
     - private
