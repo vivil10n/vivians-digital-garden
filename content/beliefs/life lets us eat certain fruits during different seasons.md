@@ -1,0 +1,4 @@
+- some things are meant to pass you by.
+- everyone goes through their own seasons in life.
+- what we desire and need changes as we grow.
+- acceptance means to let go. understand that maybe what you wanted to badly was just not meant for you.
