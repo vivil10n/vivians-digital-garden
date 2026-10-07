@@ -71,3 +71,10 @@ https://www.reddit.com/r/backrooms/comments/ft6as6/can_someone_please_explain_wh
 ![[Pasted image 20261007200150.png]]
 
 ![[Pasted image 20261007200109.png]]![[Pasted image 20261007200134.png]]
+
+
+## related
+
+- [[indie sleaze]]
+- [[cassette futurism]]
+- [[this digital garden]]

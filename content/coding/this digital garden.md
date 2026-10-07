@@ -111,3 +111,9 @@ GitHub Pages
 - coding the site and writing the content happen in the same little system
 
 I like that it feels closer to maintaining a personal archive than running a blog.
+
+## related
+
+- [[are.na]]
+- [[CARI Institute]]
+- [[indiecraft]]
