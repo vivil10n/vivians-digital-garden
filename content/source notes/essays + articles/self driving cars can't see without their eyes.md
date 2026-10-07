@@ -1,0 +1,1 @@
+https://www.nytimes.com/2026/01/02/opinion/ai-self-driving-cars-workers.html?smid=nytcore-ios-share

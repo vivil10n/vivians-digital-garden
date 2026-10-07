@@ -32,3 +32,11 @@ An educational aesthetic associated with late-1980s to late-1990s encyclopedias,
 
 https://www.are.na/consumer-aesthetics-research-institute/utopian-scholastic-kofobzbjyhg
 https://cari.institute/aesthetics/utopian-scholastic
+
+![[Pasted image 20261007195305.png]]
+
+![[Pasted image 20261007195252.png]]
+
+![[Pasted image 20261007195325.png]]
+
+![[Pasted image 20261007195314.png]]

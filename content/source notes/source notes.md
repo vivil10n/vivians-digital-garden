@@ -1,8 +1,5 @@
 
-Things I've read, watched, found, or otherwise borrowed from the world.
+Things I find interesting?
 
-- [[books]]
 - [[essays + articles]]
 - [[websites]]
-- [[films]]
-- [[people]]

@@ -33,3 +33,7 @@ A 1970s–80s vision of the future shaped by bulky analogue technology, angular 
 
 https://cari.institute/aesthetics/cassette-futurism
 https://www.are.na/consumer-aesthetics-research-institute/cassette-futurism-_hnqubwy5ow
+
+![[Pasted image 20261007195011.png]]
+![[Pasted image 20261007195036.png]]
+![[Pasted image 20261007195104.png]]

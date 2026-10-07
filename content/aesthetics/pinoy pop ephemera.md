@@ -41,18 +41,8 @@ i love how playful and unapologetically expressive it feels: glossy, colourful, 
 
 ## where I see it
 
-- Candy Magazine
-- Chalk Magazine
-- Preview Magazine
-- celebrity notebooks from National Book Store
-- MYX and MTV Asia
-- Filipino variety shows
-- early 2000s music videos
-- local celebrity photoshoots
-- school planners and stationery
-- beauty and fashion advertising
-- mall culture
-- early Friendster-era graphics
+- candy magazine
+- old music videos
 
 ## mood
 
@@ -66,3 +56,7 @@ optimistic
 tactile  
 nostalgic  
 local
+
+![[Pasted image 20261007193836.png]]
+![[Pasted image 20261007193735.png|304]]
+![[Pasted image 20261007193923.png|187]]
