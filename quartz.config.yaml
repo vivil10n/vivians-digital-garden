@@ -29,26 +29,26 @@ configuration:
 
     colors:
       lightMode:
-        light: "#EEF1E5"
-        lightgray: "#DDE1D3"
-        gray: "#A3A995"
-        darkgray: "#5A5660"
-        dark: "#302936"
-        secondary: "#6F7F59"
-        tertiary: "#8B7694"
-        highlight: rgba(111, 127, 89, 0.12)
-        textHighlight: "#DCE4C5"
+        light: "#FAFAFA"
+        lightgray: "#F5F5F5"
+        gray: "#ACACAC"
+        darkgray: "#333333"
+        dark: "#272727"
+        secondary: "#2F4FD8"
+        tertiary: "#D0679A"
+        highlight: rgba(47, 79, 216, 0.08)
+        textHighlight: "#C7F3C6"
 
       darkMode:
-        light: "#EEF1E5"
-        lightgray: "#DDE1D3"
-        gray: "#A3A995"
-        darkgray: "#5A5660"
-        dark: "#302936"
-        secondary: "#6F7F59"
-        tertiary: "#8B7694"
-        highlight: rgba(111, 127, 89, 0.12)
-        textHighlight: "#DCE4C5"
+        light: "#FAFAFA"
+        lightgray: "#F5F5F5"
+        gray: "#ACACAC"
+        darkgray: "#333333"
+        dark: "#272727"
+        secondary: "#2F4FD8"
+        tertiary: "#D0679A"
+        highlight: rgba(47, 79, 216, 0.08)
+        textHighlight: "#C7F3C6"
 
 plugins:
   - source: "@quartz-community/created-modified-date"

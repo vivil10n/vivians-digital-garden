@@ -5,6 +5,9 @@ const username = "vivian-truong"
 // channels i don't want on the garden
 const skip = ["vivian-s-22nd-wishlist", "tracking-my-life-blp8bho30zo"]
 
+// colour for the are.na folders in the sidebar
+const pink = "#d0679a"
+
 // makes titles safe to use as file names (lowercase, no weird characters)
 function clean(text) {
   return text
@@ -35,6 +38,7 @@ const listFile = "scripts/arena-files.json"
 const oldFiles = JSON.parse(await readFile(listFile, "utf8").catch(() => "[]"))
 for (const file of oldFiles) await rm(file, { force: true })
 const newFiles = []
+const arenaFolders = []
 
 const channels = await getData(`https://api.are.na/v3/users/${username}/contents?type=Channel&per=100`)
 
@@ -44,6 +48,7 @@ for (const channel of channels) {
   // every channel gets its own folder, next to beliefs, aesthetics etc
   const folder = `content/${clean(channel.title) || channel.slug}`
   await mkdir(folder, { recursive: true })
+  arenaFolders.push(folder.replace("content/", "").replace(/ /g, "-"))
 
   // index.md is what gives the folder its proper name in the sidebar
   await writeFile(
@@ -87,4 +92,11 @@ for (const channel of channels) {
 }
 
 await writeFile(listFile, JSON.stringify(newFiles, null, 2))
+
+// make the are.na folders (and the pages inside them) pink in the sidebar
+const css = arenaFolders
+  .map((f) => `.folder-container[data-folderpath="${f}/index"] .folder-title,\n.folder-container[data-folderpath="${f}/index"] + .folder-outer a`)
+  .join(",\n")
+await writeFile("quartz/styles/arena.scss", `${css} {\n  color: ${pink} !important;\n}\n`)
+
 console.log(`done: ${newFiles.length} pages`)

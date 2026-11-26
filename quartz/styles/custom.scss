@@ -1,11 +1,12 @@
 @use "./variables.scss" as *;
+@use "./arena.scss";
 
 // put your custom CSS here!
 html,
 body,
 .page,
 #quartz-body {
-  background: #eef1e5 !important;
+  background: #fafafa !important;
 }
 
 /* force IBM Plex Mono across the whole site */
@@ -29,15 +30,21 @@ span {
 
 /* text colours */
 body {
-  color: #302936;
+  color: #333333;
 }
 
 a {
-  color: #6f7f59;
+  color: #2f4fd8;
 }
 
 a:hover {
-  color: #8b7694;
+  color: #d0679a;
+}
+
+/* my own folders in the sidebar */
+.explorer .folder-title,
+.explorer .folder-outer a {
+  color: #2f4fd8 !important;
 }
 
 /* hide bottom chevron / scroll controls */
@@ -47,4 +54,20 @@ button.scroll-to-top,
 [class*="scroll-to"],
 [class*="chevron"] {
   display: none !important;
+}
+
+/* the three-essay wave on the homepage */
+.snail-wave {
+  font-family: "IBM Plex Mono", monospace !important;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #333333;
+  white-space: pre;
+  overflow: hidden;
+  user-select: none;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 2rem 0 !important;
 }
