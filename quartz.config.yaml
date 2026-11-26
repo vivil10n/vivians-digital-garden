@@ -276,7 +276,7 @@ plugins:
     enabled: true
     options:
       links:
-        portfolio: https://vivitruon.com
+        
         github: https://github.com/vivil10n
     layout:
       position: footer
